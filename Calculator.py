@@ -1,5 +1,4 @@
-# 98% complete
-
+# Complete Project
 
 from lib2to3.pgen2.token import RIGHTSHIFT
 from msilib.schema import TextStyle
@@ -43,6 +42,7 @@ def calculate():
     global all_values
     result = eval(all_values)
     text_value.set(str(result))
+    all_values=""
 # SCREEN CLEANER
 
 def clean():

@@ -1,4 +1,4 @@
-# Complete Project
+# App Complete 100%
 
 from lib2to3.pgen2.token import RIGHTSHIFT
 from msilib.schema import TextStyle
@@ -9,8 +9,8 @@ color1="#878383" # mid gray - Something between white and black
 color2="#000000" # Piano Black
 color3="#495ec9" # mid Blue
 color4="#d1deeb" # Bluer white
-color5="#e0850d" #Common Orange
-color6="#807c78" #Dark gray
+color5="#e0850d" # Common Orange
+color6="#807c78" # Dark gray
 
 #Step1 - Setting the window's screen
 window = Tk()#Creating a window to the app
@@ -98,14 +98,6 @@ b14 = Button(frame_body,command= lambda: Enter_value(','), text=",", width=7, he
 b14.place(x=180,y=330)
 b15 = Button(frame_body,command= calculate, text="=",width=7, height=3,bg=color5,fg=color4,font=('ivy 13 bold'),relief=RAISED,overrelief=RIDGE)
 b15.place(x=265,y=330)
-
-
-
-
-
-
-
-
 
 
 
